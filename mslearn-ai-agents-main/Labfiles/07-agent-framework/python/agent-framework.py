@@ -77,7 +77,7 @@ Agent(
 @tool(approval_mode = "never_required")
 
 def submit_claim(
-    to: Annotated[str, Field(description="Yogesh - Who to send the email to")],
+    to: Annotated[str, Field(description="Who to send the email to")],
     subject: Annotated[str, Field(description="The subject of the email")],
     body: Annotated[str, Field(description="The body of the email")]):
         print("\nTo: ", to)
