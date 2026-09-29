@@ -11,8 +11,8 @@ from pydantic import Field
 from typing import Annotated
 
 
-MODEL_DEPLOYMENT_NAME = "gpt-5.2"
-PROJECT_ENDPOINT = 'https://ai-project123-resource.services.ai.azure.com/api/projects/ai-project123'
+# MODEL_DEPLOYMENT_NAME = "gpt-5.2"
+# PROJECT_ENDPOINT = 'https://ai-project123-resource.services.ai.azure.com/api/projects/ai-project123'
 
 load_dotenv()
 
